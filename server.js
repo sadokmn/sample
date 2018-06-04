@@ -1,7 +1,7 @@
 const express = require("express");
 const hbs = require("hbs");
 
-
+const port = process.env.PORT || 3000;
 var app = express();
 
 hbs.registerPartials(__dirname + "/views/partials")
@@ -15,16 +15,14 @@ hbs.registerHelper("getCurrentYear", () => {
 app.get("/", (req, res) => {
     res.render("index.hbs", {
         pageTitle: "Home Page",
-        wellomeMesage: "Welcome to my website",
-        
+        wellomeMesage: "Welcome to my website"   
     });
 });
 
 
 app.get("/about", (req, res) => {
     res.render("about.hbs", {
-        pageTitle: "About Page",
-        currentYear: new Date().getFullYear()
+        pageTitle: "About Page"
     });
 });
 
@@ -34,6 +32,6 @@ app.get("/bad", (req, res) => {
     });
 });
 
-app.listen(3000, () => {
-    console.log("server is up on port 3000");
+app.listen(port, () => {
+    console.log(`Server is runing on port ${port}`);
 });
