@@ -3,3 +3,26 @@
     text-align: center;
     padding: 20px;
 }
+.myColor{
+    background-color: rgb(111, 105, 104) !important;
+}
+.aboutSection{
+    padding: 100px 0px 100px 0px;
+    word-wrap: break-word;
+}
+h1{
+    padding-left: 50px;
+}
+.cardh-100{
+    background-color: rgb(111, 105, 104);
+    color: white;
+    padding: 5px
+}
+
+.theBody{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.kokob{
+    color: gold;
+}
