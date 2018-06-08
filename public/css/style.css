@@ -4,17 +4,18 @@
     padding: 20px;
 }
 .myColor{
-    background-color: rgb(111, 105, 104) !important;
+    background-color: indianred !important;
 }
 .aboutSection{
     padding: 100px 0px 100px 0px;
     word-wrap: break-word;
+    color: white;
 }
 h1{
     padding-left: 50px;
 }
 .cardh-100{
-    background-color: rgb(111, 105, 104);
+    background-color: indianred;
     color: white;
     padding: 5px
 }
@@ -25,4 +26,7 @@ h1{
 }
 .kokob{
     color: gold;
+}
+.pg_about{
+    background-color: indianred;
 }

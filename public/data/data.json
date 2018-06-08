@@ -1,6 +1,6 @@
 [
     {
-        "img": "http://localhost:3000/data/arat.jpg",
+        
         "sm": "ኣንሶላ",
         "meshefeni": "150x200 cm",
         "ansola": "90x200 cm",
@@ -8,27 +8,43 @@
         "waga": "$ 100"
     },
     {
-        "img": "http://localhost:3000/data/arat.jpg",
+        "img": "http://localhost:3000/data/arat/arat.jpg",
         "sm": "ኣንሶላ",
         "meshefeni": "200x220 cm",
-        "ansola": "1660x200 cm",
+        "ansola": "160x200 cm",
         "meteras": "50x70 cm (2 ሓባ)",
         "waga": "$ 200"
     },
     {
-        "img": "http://localhost:3000/data/arat.jpg",
+        "img": "http://localhost:3000/data/arat/arat.jpg",
         "sm": "ኣንሶላ",
         "meshefeni": "200x220 cm",
-        "ansola": "1660x200 cm",
+        "ansola": "160x200 cm",
         "meteras": "50x70 cm (2 ሓባ)",
         "waga": "$ 1000"
     },
     {
-        "img": "http://localhost:3000/data/arat.jpg",
+        "img": "http://localhost:3000/data/arat/arat.jpg",
         "sm": "ኣንሶላ",
         "meshefeni": "200x220 cm",
-        "ansola": "1660x200 cm",
+        "ansola": "160x200 cm",
         "meteras": "50x70 cm (2 ሓባ)",
         "waga": "$ 60000"
+    },
+    {
+        "img": "http://localhost:3000/data/arat/arat.jpg",
+        "sm": "ኣንሶላ",
+        "meshefeni": "200x220 cm",
+        "ansola": "160x200 cm",
+        "meteras": "50x70 cm (2 ሓባ)",
+        "waga": "$ 200"
+    },
+    {
+        "img": "http://localhost:3000/data/arat/arat.jpg",
+        "sm": "ኣንሶላ",
+        "meshefeni": "200x220 cm",
+        "ansola": "160x200 cm",
+        "meteras": "50x70 cm (2 ሓባ)",
+        "waga": "$ 1000"
     }
 ]
