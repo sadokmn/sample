@@ -13,17 +13,20 @@ var io = socketIO(server);
 
 app.use(express.static(publicPath));
 
-
-var dukanString = fs.readFileSync("./public/data/data.json");
-
-var dukanObj = JSON.parse(dukanString) 
+var dataSedadit = (dataLocation) => {
+    var dataString = fs.readFileSync(dataLocation);
+    var dataObj = JSON.parse(dataString) 
+    return dataObj;
+}
 
 
 
 io.on("connection", (socket) => {
     
 
-    socket.emit("dukan", dukanObj)
+    socket.emit("arat", dataSedadit("./public/data/arat.json"));
+    socket.emit("salon", dataSedadit("./public/data/salon.json"));
+    socket.emit("megareja", dataSedadit("./public/data/megareja.json"));
 
 
 

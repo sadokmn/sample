@@ -5,20 +5,30 @@ var d = new Date();
 var year = d.getFullYear();
 document.querySelector(".footer").innerHTML = '<p>Created by philmon - Copyright &copy; '+year+'</p>'
 
-socket.on("dukan", function (data) {
+var akuhuDukan = function (data, imgLocation, querStr) {
+  var element = document.querySelector(querStr);
+  var photo = 0;
+  for(var i = 0; i < data.length; i++){
+    photo++
+    var text = '<div class="col-sm-12 col-md-4 theBody"><div class="cardh-100"><a href="'+imgLocation+''+photo+'.jpg"><img class="card-img-top" src="'+imgLocation+''+photo+'.jpg" alt=""></a><div class="card-body"><h3>'+data[i].sm+'</h3><h5>መሸፈኒ : '+data[i].meshefeni+'</h5><h5>ኣንሶላ : '+data[i].ansola+'</h5><h5>መተርኣስ : '+data[i].meteras+'</h5><h4><bold>'+data[i].waga+'</bold></h4></div><div><small class="kokob">&#9733; &#9733; &#9733; &#9733; &#9734;</small></div></div></div> '        
+    element.insertAdjacentHTML("beforeend", text);
+  };
+};
 
-    var aratFun = function (arawti) {
-        var element = document.querySelector(".nayarat");
-        var image = 0;
-        for(var i = 0; i < arawti.length; i++){
-            image++
-            var text = '<div class="col-sm-12 col-md-4 theBody"><div class="cardh-100"><a href="http://localhost:3000/data/arat/arat'+image+'.jpg"><img class="card-img-top" src="http://localhost:3000/data/arat/arat'+image+'.jpg" alt=""></a><div class="card-body"><h3>'+arawti[i].sm+'</h3><h5>መሸፈኒ : '+arawti[i].meshefeni+'</h5><h5>ኣንሶላ : '+arawti[i].ansola+'</h5><h5>መተርኣስ : '+arawti[i].meteras+'</h5><h4><bold>'+arawti[i].waga+'</bold></h4></div><div><small class="kokob">&#9733; &#9733; &#9733; &#9733; &#9734;</small></div></div></div> '        
-            element.insertAdjacentHTML("beforeend", text);
-        };
-    };
-    aratFun(data)
-   
+
+socket.on("arat", function (data) {
+  akuhuDukan(data, "http://localhost:3000/data/arat/arat", ".nayarat");
 })
+
+socket.on("salon", function (data) {
+  akuhuDukan(data, "http://localhost:3000/data/salon/salon", ".naysalon")
+});
+
+socket.on("megareja", function (data) {
+  akuhuDukan(data, "http://localhost:3000/data/megareja/megareja", ".megarejatat")
+});
+
+
 
 {/* <div class="col-sm-12 col-md-4 theBody">
 <div class="card h-100">
