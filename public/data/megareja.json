@@ -1,26 +1,20 @@
 [
     {
         "number": "1",
-        "sm": "ኣንሶላ",
-        "meshefeni": "200x220 cm",
-        "ansola": "160x200 cm",
-        "meteras": "50x70 cm (2 ሓባ)",
-        "waga": "$ 60000"
+        "sm": "መጋረጃ",
+        "meshefeni": " 135x250 cm (3 ሓባ)",
+        "waga": "₪ 170"
     },
     {
         "number": "2",
-        "sm": "ኣንሶላ",
-        "meshefeni": "200x220 cm",
-        "ansola": "160x200 cm",
-        "meteras": "50x70 cm (2 ሓባ)",
-        "waga": "$ 200"
+        "sm": "መጋረጃ",
+        "meshefeni": " 140x250 cm (2 ሓባ)",
+        "waga": "₪ 100"
     },
     {
         "number": "3",
-        "sm": "ኣንሶላ",
-        "meshefeni": "200x220 cm",
-        "ansola": "160x200 cm",
-        "meteras": "50x70 cm (2 ሓባ)",
-        "waga": "$ 1000"
+        "sm": "መጋረጃ",
+        "meshefeni": " 140x250 cm (2 ሓባ)",
+        "waga": "₪ 100"
     }
 ]

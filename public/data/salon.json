@@ -1,26 +1,26 @@
 [
     {
         "number": "1",
-        "sm": "ኣንሶላ",
-        "meshefeni": "200x220 cm",
-        "ansola": "160x200 cm",
-        "meteras": "50x70 cm (2 ሓባ)",
-        "waga": "$ 60000"
+        "sm": "ሳሎን",
+        "meshefeni": "XXL (3 ሓባ   3 - 2 - 1)",
+        "ansola": "3 2 1",
+        "meteras": "50x70 cm (3 ሓባ)",
+        "waga": "₪ 220"
     },
     {
         "number": "2",
-        "sm": "ኣንሶላ",
-        "meshefeni": "200x220 cm",
+        "sm": "ሳሎን",
+        "meshefeni": "XXL (3 ሓባ   3 - 2 - 1)",
         "ansola": "160x200 cm",
         "meteras": "50x70 cm (2 ሓባ)",
-        "waga": "$ 200"
+        "waga": "₪ 220"
     },
     {
         "number": "3",
-        "sm": "ኣንሶላ",
-        "meshefeni": "200x220 cm",
+        "sm": "ሳሎን",
+        "meshefeni": "XXL (3 ሓባ   3 - 2 - 1)",
         "ansola": "160x200 cm",
         "meteras": "50x70 cm (2 ሓባ)",
-        "waga": "$ 1000"
+        "waga": "₪ 220"
     }
 ]

@@ -1,26 +1,49 @@
 [
     {
         "number": "1",
-        "sm": "ኣንሶላ",
-        "meshefeni": "200x220 cm",
-        "ansola": "160x200 cm",
-        "meteras": "50x70 cm (2 ሓባ)",
-        "waga": "$ 60000"
+        "sm": "ኣንሶላ ዳብል",
+        "meshefeni": " 200x220 cm",
+        "ansola": " 160x200 cm",
+        "meteras": " 50x70 cm (2 ሓባ)",
+        "waga": "₪ 120"
     },
     {
         "number": "2",
-        "sm": "ኣንሶላ",
-        "meshefeni": "200x220 cm",
-        "ansola": "160x200 cm",
-        "meteras": "50x70 cm (2 ሓባ)",
-        "waga": "$ 200"
+        "sm": "ኣንሶላ ዳብል",
+        "meshefeni": " 200x220 cm",
+        "ansola": " 160x200 cm",
+        "meteras": " 50x70 cm (2 ሓባ)",
+        "waga": "₪ 120"
     },
     {
         "number": "3",
-        "sm": "ኣንሶላ",
+        "sm": "ኣንሶላ ዳብል",
         "meshefeni": "200x220 cm",
-        "ansola": "160x200 cm",
-        "meteras": "50x70 cm (2 ሓባ)",
-        "waga": "$ 1000"
+        "ansola": " 160x200 cm",
+        "meteras": " 50x70 cm (2 ሓባ)",
+        "waga": "₪ 100"
+    },{
+        "number": "4",
+        "sm": "ኣንሶላ ዳብል",
+        "meshefeni": " 200x220 cm",
+        "ansola": " 160x200 cm",
+        "meteras": " 50x70 cm (2 ሓባ)",
+        "waga": "₪ 120"
+    },
+    {
+        "number": "5",
+        "sm": "ኣንሶላ ዳብል",
+        "meshefeni": " 200x220 cm",
+        "ansola": " 160x200 cm",
+        "meteras": " 50x70 cm (2 ሓባ)",
+        "waga": "₪ 120"
+    },
+    {
+        "number": "6",
+        "sm": "ኣንሶላ ሲንግል",
+        "meshefeni": " 160x200 cm",
+        "ansola": "90x200 cm",
+        "meteras": "50x70 cm (1 ሓባ)",
+        "waga": "₪ 50"
     }
 ]
