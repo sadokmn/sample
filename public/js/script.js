@@ -32,12 +32,12 @@ socket.on("arat", function (data) {
 })
 
 socket.on("salon", function (data) {
-  akuhuDukan(data, "/images/arat/salon", ".naysalon")
+  akuhuDukan(data, "/images/salon/salon", ".naysalon")
 });
 
 socket.on("megareja", function (data) {
   
-  akuhuDukan(data, "/images/arat/megareja", ".megarejatat");
+  akuhuDukan(data, "/images/megareja/megareja", ".megarejatat");
   
 });
 
