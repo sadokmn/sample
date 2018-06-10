@@ -27,17 +27,17 @@ var akuhuDukan = function (data, imgLocation, querStr) {
 
 
 socket.on("arat", function (data) {
-  akuhuDukan(data, "http://localhost:3000/data/arat/arat", ".nayarat");
+  akuhuDukan(data, "http://localhost:3000/images/arat/arat", ".nayarat");
   
 })
 
 socket.on("salon", function (data) {
-  akuhuDukan(data, "http://localhost:3000/data/salon/salon", ".naysalon")
+  akuhuDukan(data, "http://localhost:3000/images/salon/salon", ".naysalon")
 });
 
 socket.on("megareja", function (data) {
   
-  akuhuDukan(data, "http://localhost:3000/data/megareja/megareja", ".megarejatat");
+  akuhuDukan(data, "http://localhost:3000/images/megareja/megareja", ".megarejatat");
   
 });
 

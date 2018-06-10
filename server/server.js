@@ -24,9 +24,9 @@ var dataSedadit = (dataLocation) => {
 io.on("connection", (socket) => {
     
 
-    socket.emit("arat", dataSedadit("./public/data/arat.json"));
-    socket.emit("salon", dataSedadit("./public/data/salon.json"));
-    socket.emit("megareja", dataSedadit("./public/data/megareja.json"));
+    socket.emit("arat", dataSedadit("./public/images/arat.json"));
+    socket.emit("salon", dataSedadit("./public/images/salon.json"));
+    socket.emit("megareja", dataSedadit("./public/images/megareja.json"));
 
 
 
