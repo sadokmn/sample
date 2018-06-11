@@ -11,13 +11,13 @@ var akuhuDukan = function (data, imgLocation, querStr) {
   for(var i = 0; i < data.length; i++){
     photo++
     if(data[i].sm === "ኣንሶላ ዳብል" || data[i].sm === "ኣንሶላ ሲንግል") {
-    var text = '<div class="col-sm-12 col-md-4 theBody"><div class="cardh-100"><a href="'+imgLocation+''+photo+'.jpg"><img class="card-img-top" src="'+imgLocation+''+photo+'.jpg" alt=""></a><div class="card-body"><h3>'+data[i].sm+'</h3><h5>ዓቐን : '+data[i].meshefeni+'</h5><h5>ኣንሶላ : '+data[i].ansola+'</h5><h5>መተርኣስ : '+data[i].meteras+'</h5><h4><bold>'+data[i].waga+'</bold></h4></div><div><small class="kokob">&#9733; &#9733; &#9733; &#9733; &#9734;</small></div></div></div> '        
+    var text = '<div class="col-sm-12 col-md-4 col-sm-4 theBody"><div class="cardh-100"><a href="'+imgLocation+''+photo+'.jpg"><img class="card-img-top" src="'+imgLocation+''+photo+'.jpg" alt=""></a><div class="card-body"><h3>'+data[i].sm+'</h3><h5>ዓቐን : '+data[i].meshefeni+'</h5><h5>ኣንሶላ : '+data[i].ansola+'</h5><h5>መተርኣስ : '+data[i].meteras+'</h5><h4><bold>'+data[i].waga+'</bold></h4></div><div><small class="kokob">&#9733; &#9733; &#9733; &#9733; &#9734;</small></div></div></div> '        
     element.insertAdjacentHTML("beforeend", text);
     }else if (data[i].sm === "ሳሎን") {
-    var text = '<div class="col-sm-12 col-md-4 theBody"><div class="cardh-100"><a href="'+imgLocation+''+photo+'.jpg"><img class="card-img-top" src="'+imgLocation+''+photo+'.jpg" alt=""></a><div class="card-body"><h3>'+data[i].sm+'</h3><h5>ዓቐን : '+data[i].meshefeni+'</h5><h4><bold>'+data[i].waga+'</bold></h4></div><div><small class="kokob">&#9733; &#9733; &#9733; &#9733; &#9734;</small></div></div></div> '        
+    var text = '<div class="col-sm-12 col-md-4 col-sm-4 theBody"><div class="cardh-100"><a href="'+imgLocation+''+photo+'.jpg"><img class="card-img-top" src="'+imgLocation+''+photo+'.jpg" alt=""></a><div class="card-body"><h3>'+data[i].sm+'</h3><h5>ዓቐን : '+data[i].meshefeni+'</h5><h4><bold>'+data[i].waga+'</bold></h4></div><div><small class="kokob">&#9733; &#9733; &#9733; &#9733; &#9734;</small></div></div></div> '        
     element.insertAdjacentHTML("beforeend", text);
     }else if (data[i].sm === "መጋረጃ") {
-    var text = '<div class="col-sm-12 col-md-4 theBody"><div class="cardh-100"><a href="'+imgLocation+''+photo+'.jpg"><img class="card-img-top" src="'+imgLocation+''+photo+'.jpg" alt=""></a><div class="card-body"><h3>'+data[i].sm+'</h3><h5>ዓቐን : '+data[i].meshefeni+'</h5><h4><bold>'+data[i].waga+'</bold></h4></div><div><small class="kokob">&#9733; &#9733; &#9733; &#9733; &#9734;</small></div></div></div> '        
+    var text = '<div class="col-sm-12 col-md-4 col-sm-4 theBody"><div class="cardh-100"><a href="'+imgLocation+''+photo+'.jpg"><img class="card-img-top" src="'+imgLocation+''+photo+'.jpg" alt=""></a><div class="card-body"><h3>'+data[i].sm+'</h3><h5>ዓቐን : '+data[i].meshefeni+'</h5><h4><bold>'+data[i].waga+'</bold></h4></div><div><small class="kokob">&#9733; &#9733; &#9733; &#9733; &#9734;</small></div></div></div> '        
     element.insertAdjacentHTML("beforeend", text);
     };
     
